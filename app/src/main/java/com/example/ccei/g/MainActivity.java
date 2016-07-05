@@ -129,12 +129,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 count = 1;
                 break;
 
-            case R.id.minus:
-                arrayList.add(input_text.getText().toString());
-                input_text.setText("");
-                ing.append("-");
-                count = 2;
-                break;
 
             case R.id.mul:
                 arrayList.add(input_text.getText().toString());
